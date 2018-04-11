@@ -1,0 +1,36 @@
+// let base = 'http://192.168.191.5:8080'
+export default {
+  login: '/auth/login',
+  register: '/500/user/register',
+  test: '/500/user/self',
+  record: '/500/count/user/recharge',
+  news: '/500/news/all',
+  newsDetail: '/500/news/',
+  message: '/500/message/all',
+  spread: '/500/spread/all',
+  spreadSelf: '/500/spread/self',
+  call: '/500/call/save',
+  lhc_call: '/500/call/lhc-call',
+  banner: '/500/slide/all',
+  allTicket: '/500/ticket/allowd',
+  gameId: '/500/game/ticket',
+  gamePersentId: '/500/game-persent/game',
+  lotteryId: '/500/lottery-data/new',
+  cash: '/500/cash/self',
+  bet: '/500/count/bet',
+  saveCard: '/500/card/save',
+  logout: '/auth/logout',
+  revisePwd: '/500/user/change-pwd',
+  savecash: '/500/cash/save',
+  config: '/500/config/all',
+  active: '/500/Recharge-activities/all',
+  checkCode: '500/check-code',
+  kaiData: '/500/lottery/all',
+  newTicketData: '/500/lottery/ticket/',
+  kaiDate10: '/500/lottery-time/time/ten/',
+  kaiDate3: '/500/lottery-time/time/three/',
+  kaiDate5: '/500/lottery-time/time/',
+  visitor: '/500/user/visitor'
+}
+
+// login: `${base}/auth/login`
